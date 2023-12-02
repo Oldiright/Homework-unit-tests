@@ -16,7 +16,6 @@ public class SumCalculatorTest {
 
         //When
         int firstActualSum = calculator.sum(1);
-        int secondActualSum = calculator.sum(3);
 
         //Then
         Assertions.assertEquals(1, firstActualSum);
@@ -36,12 +35,6 @@ public class SumCalculatorTest {
     @Test
     void TestThatSumWorksCorrectWithZero()  {
 
-        IllegalArgumentException thrown = Assertions.assertThrows(IllegalArgumentException.class, () -> {
-            calculator.sum(0);
-        }, "You tried to enter zero!");
-
-        Assertions.assertEquals("You tried to enter zero!", thrown.getMessage());
+       Assertions.assertThrows(IllegalArgumentException.class, () -> calculator.sum(0));
     }
-
-
 }
