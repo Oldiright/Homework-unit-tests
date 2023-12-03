@@ -1,6 +1,4 @@
 
-S
-#src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 \
@@ -9,8 +7,6 @@ S
 0src/test/java/org/example/SumCalculatorTest.java,9\3\932bcafaa4fd98bb44afb6ec801fb771c95a654c
 X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
-
-Q.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b,a\b\abe25e851ee828e40a94fcb1c1be6f78ff7a04cf
 
 Q.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35,2\5\25f6469773b9f3ebb994178c1114a60412389f58
 w

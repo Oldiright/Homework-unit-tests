@@ -4,15 +4,15 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class SumCalculatorTest {
+class SumCalculatorTest {
     private SumCalculator calculator;
     @BeforeEach
-    public void beforeEarch() {
+    void beforeEarch() {
         calculator = new SumCalculator();
     }
 
     @Test
-    public void TestThatSumWorksCorrectWithOne() {
+    void TestThatSumWorksCorrectWithOne() {
 
         //When
         int firstActualSum = calculator.sum(1);
@@ -23,7 +23,7 @@ public class SumCalculatorTest {
     }
 
     @Test
-    public void TestThatSumWorksCorrectWithThree() {
+    void TestThatSumWorksCorrectWithThree() {
 
         //When
         int secondActualSum = calculator.sum(3);
